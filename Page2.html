@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: hsl(238, 21%, 28%);
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <marquee behavior="scroll" direction="left" scrollamount="10" style="color: #00ff00; font-family: 'Courier New', Courier, monospace; font-size: 20px;">Welcome to My <s>W</s>Rebsite! Check out the images of Daniel Larson in his new album "Roaring Thunder".</marquee>
+    <marquee behavior="scroll" direction="right" scrollamount="5" style="color: #00ff00; font-family: 'Courier New', Courier, monospace; font-size: 20px;">Marquee is erm so sigma fr.</marquee>
+    <div class="container">
+        <div class="box">
+            <h1 style="color: aliceblue;">Welcome to My <s>W</s>Rebsite</h1>
+            <p style="color: #fb00ff;">Larson is so sigma and free.</p>
+        </div>
+    </div>
+    <a href="Learning.html"; style="color: rgb(0, 255, 200); text-decoration: underline; background-color: #2e8cbe; padding: 5px; border: solid; border-color: #cecece;">Go to Tung Tung Sa-Home Page</a>
+    <h3 style="color: chocolate; font-family: 'Courier New', Courier, monospace;">Larson Images</h3>
+    <ol style ="font-family: 'Courier New', Courier, monospace; color: #63959c;">    
+        <li style="font-size: 20px; font-family: Arial, sans-serif; color: #00e1ff; margin: 10px 0;">Daniel Larson in his "new" album "Roaring Thunder".</li>
+            <img style="border: 3px dashed #0747d2; padding: 0.5px;"src="RoaringThunder.png" alt="Roaring Thunder Album Cover" width="300"/>
+        </li>
+        <p style="font-size: 16px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif; color: #ffffff;"><i>Larson as seen in his beautiful album cover.</i></p>
+        <li style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"><a href="https://www.google.com/search?q=daniel+larson&tbm=isch&ved=2ahUKEwiJ1p6G9ZP-AhXQxosKHQ0kD7IQ2-cCegQIABAA&oq=daniel+larson&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEOgoIABBHENYEELADOgoIABCKBRCwAxBDOgYIABAWEB46CAgAEBYQHhAPSgQIQRgAUNoHWK4JYJ4KaAFwAXgAgAFkiAGbCJIBAzUuMZgBAKABAcgBCcABAQ&sclient=img&ei=3r5kZL3nF8iGhbIPj7q6sAY&bih=754&biw=1536&rlz=1C1GCEU_enUS832US832#imgrc=V0v8e5l9fW7dZM" target="_blank"; style="font-family:monospace; color: #00ffa6;">Link to more Daniel Larson Images (Google Images)</a>
+        </li>
+    </ol>
+    <marquee scrollamount="100";>
+        <img src="daniel-larson-danderson.gif" alt="Roaring Thunder Album Cover" width="200"; style="border: 3px solid #00eaff; padding: 0.5px; margin: 50px;"/>
+    </marquee>
+    <div class="sigma-box">
+    <marquee scrollamount="20" behavior="alternate">
+    <img id="SahurImage" src="tung-tung-tung-sahur-tung-tung-sahur.gif"; style="border: 3px solid #00eaff; padding: 0.5px;"/>
+    </marquee>
+    <button onclick="showImage()" style="background-color: #634307; color: #312103; border: solid; padding: 5px; cursor: pointer; margin-top: 30px; font-family: 'Courier New', Courier, monospace; font-size: 20px;">
+        <b>TUNG TUNG TUNG SAHUR (Randomizer)</b>
+    </button>
+    </div>
+    <script>
+        function showImage() {
+            const images = [
+                "tung-sahur-dance-tung-tung-tung-sahur.gif",
+                "tung-tung-tung-sahur-tung-tung-sahur.gif",
+            ];
+        const randomImg = images[Math.floor(Math.random() * images.length)];
+        document.getElementById("SahurImage").src = randomImg;
+        }
+    </script>
+    <marquee
+        direction="down"
+        width="396"
+        height="23"
+        behavior="alternate"
+        class="outlined";
+        style="color: #00ff48; font-family: 'Courier New', Courier, monospace;">
+        <marquee  behavior="alternate">↑ CLICK THIS ↑</marquee>
+</marquee>
+</body>
+</html>
